@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
-/*
+
 Template Name: Multi
 Version: 1.0
 Author: ShapeBootstrap
@@ -264,6 +264,43 @@ ul.nostyle i {
   height: 100%;
   color: #fff;
 }
+.carousel-bg .carousel-inner .item {
+  background-color: darkslategrey;
+  background-size: cover;
+  background-position: center;
+  min-height: 360px;
+}
+
+/* taking care of responsive layout */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5rem;
+}
+
+.single-video {
+  width: 45rem;
+  flex-grow: 1;
+  margin: 2rem;
+}
+
+/* taking care of the video aspect-ratio */
+figure {
+  position: relative;
+  padding: 0 0 56.25% 0;
+}
+
+figure iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slide{ 
+  margin-top: 30px;
+}
+
+
 #main-slider .slider-inner h2 {
   margin-top: 180px;
   font-size: 36px;
@@ -930,6 +967,8 @@ ul.nostyle i {
 #contact .contact-form h3 {
   margin-top: 0;
 }
+
+
 /***********************
 ********* Footer ******
 ************************/
