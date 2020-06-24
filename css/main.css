@@ -12,7 +12,9 @@
     top: 50%;
     margin-top: -27px;
     line-height: 54px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
+    background-color: #f5f5f5;
+    
     opacity: 1;
     text-shadow: none;
     z-index: 5;
@@ -27,7 +29,7 @@
 	margin-right: 20px;
 }
 .mbr-slider .carousel-control:hover {
-	background: #fff;
+	background:grey;
 	color: #000;
 }
 .mbr-slider .carousel-indicators {
