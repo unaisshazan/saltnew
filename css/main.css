@@ -2639,23 +2639,29 @@ figure iframe {
 #footer {
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #fff;
-  background: #2e2e2e;
+  color: #132125;
+  font-weight: bolder;
+  background:rgb(232, 232, 232);
 }
+
 #footer a {
-  color: #fff;
+  color: rgb(126, 98, 29);
 }
 #footer a:hover {
-  color: #45aed6;
+  color: rgb(255, 101, 80);
 }
 #footer ul {
   list-style: none;
   padding: 0;
   margin: 0 -7.5px;
 }
+#footer :hover {
+  color: rgb(255, 101, 80);
+}
 #footer ul > li {
   display: inline-block;
   margin: 0 7.5px;
+ 
 }
 @media only screen and (min-width: 768px) {
   #footer .social-icons {
