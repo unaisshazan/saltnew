@@ -2655,9 +2655,6 @@ figure iframe {
   padding: 0;
   margin: 0 -7.5px;
 }
-#footer :hover {
-  color: rgb(255, 101, 80);
-}
 #footer ul > li {
   display: inline-block;
   margin: 0 7.5px;
