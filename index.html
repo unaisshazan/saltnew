@@ -62,57 +62,54 @@
     </header>
     <!--/header-->
     <section id="main-slider">
-        <div class="owl-carousel">
-            <div class="item img-responsive" style="background-image: url(./images/slider/slider1.png);">
-                <div class="slider-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <!-- <h2><span>Multi</span> is the best Onepage html template</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p> -->
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/.item-->
-          
-             <div class="item img-responsive" style="background-image: url(./images/map.jpg);">
-                <div class="slider-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <!-- <h2>Beautifully designed <span>free</span> one page template</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p>
-                                    <a class="btn btn-primary btn-lg" href="#">Read More</a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/.item-->
+        
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
+            </ol>
             
-            <div class="owl-carousel">
-                <div class="item img-responsive" style="background-image: url(https://i.ibb.co/WVNy5H1/1.jpg);">
-                    <div class="slider-inner">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="carousel-content">
-                                        <!-- <h2><span>Multi</span> is the best Onepage html template</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p> -->
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-        </div><!--/.owl-carousel-->
-       
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="slide-content">
+                  <video poster="https://i.ibb.co/D9CTkXs/slider1.png" webkit-playsinline id="bgvid" loop>
+                   
+                  </video>
+                  
+                </div>
+              </div>
+              <div class="item">
+                <div class="slide-content">
+                  <video poster="https://i.ibb.co/2dpg5Cg/google-earth.png" webkit-playsinline id="bgvid" loop>
+                   
+                  </video>
+                 
+                </div>
+              </div>
+              <div class="item">
+                <div class="slide-content">
+                  <video poster="https://i.ibb.co/WVNy5H1/1.jpg" webkit-playsinline id="bgvid" loop>
+                  
+                  </video>
+                
+                </div>
+              </div>
+            
+            </div>
+            
+            <a class="carousel-control left" href="#carousel" data-slide="prev">
+             <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            
+            <a class="carousel-control right" href="#carousel" data-slide="next">
+             <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            
+          </div>
+          
         
     </section>
     <section id="features">
