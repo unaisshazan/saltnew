@@ -2373,6 +2373,7 @@ figure iframe {
 }
 .nav.main-tab > li > a {
   color: #272727;
+
 }
 .nav.main-tab > li.active > a {
   background: #222534;
@@ -2406,7 +2407,7 @@ figure iframe {
 }
 #animated-number {
   padding: 100px 0 70px;
-  background: #132125 url(../images/animated-number/bg.jpg) no-repeat 0 0;
+  background: #132125 url(../images/ico/logo.png) no-repeat 0 0;
   background-size: cover;
   color: #fff;
 }
